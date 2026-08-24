@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+flaml
+flaml[automl]
+fastapi
+uvicorn
+chandan-aiops
+streamlit
+gradio
+matplotlib
+seaborn
+scipy

@@ -2,6 +2,7 @@ from src.data_ingestion import data_loader
 from src.data_preprocessing import preprocessing
 from src.model_building import model_build
 
+
 def main():
 
     # Step1: Data Ingestion
@@ -15,4 +16,6 @@ def main():
     # Step3: model building
     score = model_build(X_train, X_test, y_train, y_test)
     print(f"Model R2 Score: {score}")
+
+    
 main()
